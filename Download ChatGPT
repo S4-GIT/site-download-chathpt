@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Tag para responsividade -->
+  <title>Download ChatGPT</title>
+  <style>
+    /* Estilo para o corpo da página */
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Estilo para o cabeçalho */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilo para o título */
+    h1 {
+      font-size: 36px;
+      color: #333333;
+      margin: 0;
+    }
+
+    /* Estilo para a logo */
+    .logo {
+      width: 50px;
+      height: auto;
+      margin-right: 15px;
+    }
+
+    /* Estilo para o parágrafo */
+    p {
+      font-size: 20px;
+      color: #555555;
+      margin: 20px 0;
+    }
+
+    /* Estilo para o botão */
+    .download-button {
+      font-size: 18px;
+      padding: 10px 20px;
+      color: #ffffff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Ajustes para telas pequenas (como celulares) */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 24px; /* Reduz o tamanho do título */
+      }
+
+      p {
+        font-size: 16px; /* Reduz o tamanho do parágrafo */
+      }
+
+      .download-button {
+        font-size: 16px; /* Reduz o tamanho do botão */
+        padding: 8px 16px;
+      }
+
+      .logo {
+        width: 40px; /* Reduz o tamanho da logo */
+        margin-right: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho com logo e título -->
+  <div class="header">
+    <img class="logo" src="https://i.imgur.com/XGBbGIw.png" alt="Logo do ChatGPT">
+    <h1>ChatGPT</h1>
+  </div>
+
+  <!-- Parágrafo abaixo do cabeçalho -->
+  <p>O aplicativo oficial da OpenAI.</p>
+
+  <!-- Botão de download -->
+  <a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt" class="download-button">Download</a>
+</body>
+</html>
